@@ -4,6 +4,8 @@
 	});
 
 
+
+
 	// Fun Facts
 	function count($this) {
 	    var current = parseInt($this.html(), 10);
@@ -40,3 +42,4 @@
 	    $("#preloader").on(500).fadeOut();
 	    $(".preloader").on(600).fadeOut("slow");
 	});
+

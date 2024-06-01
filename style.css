@@ -25,6 +25,13 @@ IMPORT
     font-style: normal;
 }
 
+#lang:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
 .flaticon-email:before {
     content: "\f100";
 }
@@ -154,7 +161,6 @@ a {
     padding-left: 0
 }
 
-.check li a {}
 
 .authorbox,
 blockquote {
